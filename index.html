@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soviet Moon Dog | $LAIKA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=Stalinist+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e5e5e5;
+            font-family: 'Space Grotesk', sans-serif;
+            overflow-x: hidden;
+        }
+        .soviet-font { font-family: 'Stalinist One', cursive; }
+        .grain {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+            opacity: 0.05; pointer-events: none; z-index: 50;
+        }
+        .red-glow { box-shadow: 0 0 20px rgba(220, 38, 38, 0.5); }
+        .hero-gradient {
+            background: radial-gradient(circle at center, rgba(220, 38, 38, 0.15) 0%, transparent 70%);
+        }
+    </style>
+</head>
+<body>
+    <div class="grain"></div>
+
+    <nav class="p-6 flex justify-between items-center border-b border-red-900/30">
+        <div class="soviet-font text-red-600 text-xl tracking-tighter">SOVIET MOON DOG</div>
+        <div class="space-x-6 text-sm uppercase tracking-widest font-bold">
+            <a href="#story" class="hover:text-red-500 transition">Mission</a>
+            <a href="https://en.wikipedia.org/wiki/Laika" target="_blank" class="hover:text-red-500 transition underline decoration-red-600">Wikipedia Archive</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex flex-col items-center justify-center text-center px-4 hero-gradient">
+        <div class="mb-8 relative">
+            <div class="absolute -inset-4 bg-red-600 rounded-full blur-xl opacity-20 animate-pulse"></div>
+            <img src="http://googleusercontent.com/image_collection/image_retrieval/13778162772683967200_0" 
+                 alt="Laika Space Dog" 
+                 class="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-red-600 grayscale hover:grayscale-0 transition-all duration-700 red-glow object-cover">
+        </div>
+        
+        <h1 class="soviet-font text-4xl md:text-7xl text-red-600 mb-4 uppercase leading-none">The First Soul <br> On The Moon</h1>
+        <p class="max-w-2xl text-gray-400 text-lg md:text-xl italic mb-8">
+            "Before man dreamed of the moon, a hero from the streets of Moscow led the way."
+        </p>
+        
+        <div class="flex flex-col md:flex-row gap-4">
+            <button class="bg-red-700 hover:bg-red-600 text-white px-10 py-4 soviet-font text-lg transition-transform active:scale-95">
+                BUY $LAIKA
+            </button>
+            <a href="https://x.com" class="border border-red-900/50 hover:bg-red-900/20 px-10 py-4 soviet-font text-lg transition">
+                JOIN THE PACK
+            </a>
+        </div>
+    </section>
+
+    <section id="story" class="py-24 px-6 bg-[#0f0f0f] border-y border-red-900/20">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="soviet-font text-3xl text-red-600 mb-12 text-center underline decoration-red-800 underline-offset-8">THE LOGBOOK</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-gray-300 leading-relaxed text-lg">
+                    <p>
+                        In 1957, a stray dog named Laika was chosen for a mission that would change history. She didn't have a choice, but she had <strong>courage</strong>.
+                    </p>
+                    <p>
+                        The world told us she was lost in orbit. But we know the truth. Her soul didn't stop at the stars—she became the guardian of the Lunar surface. 
+                    </p>
+                    <p>
+                        $LAIKA is not just a coin. It is a tribute to the pioneer who proved that even a street dog can touch the moon. We aren't just trading; we are completing the mission.
+                    </p>
+                </div>
+                <div class="border-l-4 border-red-700 pl-8 py-4">
+                    <div class="text-6xl text-red-900 soviet-font mb-4 opacity-50">1957</div>
+                    <p class="text-sm uppercase tracking-[0.2em] text-red-500 font-bold mb-2">Historical Briefing</p>
+                    <p class="text-gray-500 italic text-sm">
+                        Laika was the first living being to orbit Earth. Her sacrifice paved the way for every human astronaut who followed.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Laika" class="mt-4 inline-block text-red-600 hover:text-white transition font-bold underline">
+                        Read the Official Wikipedia Dossier →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-600 text-xs tracking-widest uppercase">
+        <div class="soviet-font text-red-900 mb-4">SOVIET MOON DOG © 2026</div>
+        <p>Built for the people. Driven by the mission. $LAIKA to the Moon.</p>
+    </footer>
+
+</body>
+</html>
